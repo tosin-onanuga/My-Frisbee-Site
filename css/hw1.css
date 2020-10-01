@@ -161,6 +161,17 @@ table tr th:first-child, table tr td:first-child {
 }
 
 
+
+
+
+@media screen and (max-width:450px){
+
+	#usa_ultimate_link{
+		display: none;
+	}
+
+
+
 @media screen and (max-width: 950px){
 
 	body{
