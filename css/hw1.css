@@ -164,7 +164,7 @@ table tr th:first-child, table tr td:first-child {
 
 
 
-@media screen and (max-width:450px){
+@media screen and (max-width:350px){
 
 	#usa_ultimate_link{
 		display: none;
