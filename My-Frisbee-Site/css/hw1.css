@@ -1,0 +1,234 @@
+
+
+
+
+body{
+	
+	margin: 1%;
+	background-color: rgb(250, 236, 212);
+
+}
+
+header {
+	
+	background-image: url('../images/flywheel.jpg');
+	text-align: center;
+	padding:0.5% ;
+	marging: 0 auto;
+	height:150px;
+}
+
+h1{
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+nav{
+	font-variant: ;
+	font-family: Arial, "Times New Roman", serif;
+
+}
+
+nav a{
+	display: inline-block;
+	background-color: rgba(255,246,230,0.7);
+	width:15%;
+	height:70%;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size:150%;
+	font-weight: bold;
+	padding: 0.5rem; 
+	margin-right:5%; 
+
+}
+
+nav a:hover {
+
+	background-color: #E5DDCF;
+}
+
+.active {
+
+	background-color: #ffffff;
+	
+}
+
+
+h2{
+	color: #000000;
+	font-size:40px;
+}
+
+
+.left{	height: 100vh;
+	width:19%;
+	
+	display:inline;
+	float:left;
+	background-color: #b3b3b3;
+}
+
+.right{
+	height: 100vh;
+	float: right;
+	display: inline;
+	width:80%;
+	font-size:25px;
+}
+
+img{
+	
+	border: 2px solid black;
+	display: flex;
+    	margin: 10%;
+    	justify-content: center;
+    	width: 80%;  
+}	
+
+
+
+
+table{
+	font-family:  sans-serif,Arial, Helvetica;
+	margin-top: 1%;
+	margin-left: 5%;
+	margin-right: 5%;
+	justify-content: center;
+	text-align: center;
+	width:90%;
+	font-family: cursive;
+  	
+}
+
+
+th {
+	
+	
+	border-bottom: 5px solid #004d00;
+	
+	padding:1%;
+	
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	
+	color: #ffffff;
+	font-size: 100%;
+    	background-image:linear-gradient(#848E66,rgb(219, 149, 19));
+    
+
+}
+
+
+
+tr {
+	background-color: rgba(173,216,230,0.5);
+	
+	color:#cccccc;
+}
+
+
+
+tr:hover {
+	background-color: rgba(173,216,230,1);
+	color:#cccccc;
+	font-style: italic;
+}
+
+
+td{
+
+	
+	color: rgba(0, 33, 371, 0.7);
+	font-family: sans-serif;
+	font-size: 90%;
+
+	padding: 10px 10px 10px 10px;
+}
+
+
+table tr th, table tr td {
+  
+	text-align: center;
+	width:25%;
+}
+
+
+table tr th:first-child, table tr td:first-child {
+  	
+	text-align: left;
+	width:50%;
+	
+}
+
+
+@media screen and (max-width:350px){
+
+	#usa_ultimate_link{
+		display: none;
+	}
+}
+
+
+
+@media screen and (max-width: 950px){
+
+	body{
+		background-color: #fcfbfb;
+	}
+
+		#usa_ultimate_text {
+		font-size: 70%;
+	}
+	
+	img{
+	
+		display: none;
+				
+	}	
+
+
+	/* #img_mobile{
+		display: block;
+		border: 2px solid black;
+		height: 20vh;
+						
+				width: 95vw;  
+	}
+	
+	*/
+
+
+	
+	
+
+	.left{	
+		
+		display:none;
+	}
+	
+	.right{
+		height: 100vh;
+		display: inline-block;
+		width:100%;
+		font-size:25px;
+	}
+ }
+
+
+
+ @media screen and (max-width : 1040px){
+
+	nav a{
+						
+	font-size:100%;
+				
+	}
+ }
+
+
+ 
+
+**************************************************************************
+
+
